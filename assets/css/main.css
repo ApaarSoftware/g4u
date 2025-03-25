@@ -2328,3 +2328,43 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+
+
+@font-face {
+	font-family: 'Noto Sans Gurmukhi'; /* Replace with your font name */
+	src: url('../fonts/Noto_Sans_Gurmukhi/NotoSansGurmukhi-VariableFont_wdth\,wght.ttf') format('woff2'), /* WOFF2 is preferred */
+		 url('../fonts/Noto_Sans_Gurmukhi/NotoSansGurmukhi-VariableFont_wdth\,wght.ttf') format('woff'); /* WOFF for fallback */
+	font-weight: normal;
+	font-style: normal;
+}
+
+.gurmukhi-text {
+	font-family: 'Noto Sans Gurmukhi', sans-serif;
+	font-size: 30px;
+}
+.gurmukhi-wordmeaning-text {
+	font-family: 'Noto Sans Gurmukhi', sans-serif;
+	font-size: 25px;
+}
+
+ @font-face {
+  font-family: 'Tiro Devanagari Hindi'; /* Choose a name for your font */
+  src: url('../fonts/Tiro_Devanagari_Hindi/TiroDevanagariHindi-Regular.ttf') format('woff'), /* Or .ttf, .eot, etc. */
+	   url('../fonts/Tiro_Devanagari_Hindi/TiroDevanagariHindi-Regular.ttf') format('woff2'); /* Include woff2 for better compatibility */
+  font-weight: normal; /* Or bold, etc. */
+  font-style: normal; /* Or italic, etc. */
+}
+
+.hindi-text {
+	font-family: 'Tiro Devanagari Hindi', sans-serif;
+	font-size: 30px;
+}
+
+.eng-text {
+  font-size: 27px;
+}
+
+.wordmeaning-text {
+  font-size: 25px;
+}
